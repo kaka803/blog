@@ -203,7 +203,7 @@ nav .container{
     width: 23%;
     position: relative;
     height: 300px;
-    background : linear-gradient(rgba(0 0 0 / 0%), #000000), url(assets/toronto-ontario-canada-lead-TORONTOTG0721-bfa723dac6c741d0bd549c90c2660968.jpg);
+    background : linear-gradient(rgba(0 0 0 / 0%), #000000), url(toronto-ontario-canada-lead-TORONTOTG0721-bfa723dac6c741d0bd549c90c2660968.jpg);
     background-repeat: no-repeat;
     background-size: 200%;
 }
@@ -216,14 +216,14 @@ nav .container{
     text-align: left;
 }
 .example-card2{
-    background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(assets/books-521812297.jpg);
+    background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(books-521812297.jpg);
 
 }
 .example-card3{
-    background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(assets/pexels-rovenimagescom-949587.jpg);
+    background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(pexels-rovenimagescom-949587.jpg);
 }
 .example-card4{
-        background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(assets/books.jpg);
+        background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(books.jpg);
 }
 .example-area{
     gap: 30px;
