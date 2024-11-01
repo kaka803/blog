@@ -1,0 +1,207 @@
+@media only screen and (max-width: 991px) {
+
+
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        padding-block: 25px;
+        z-index: 10;
+        transition: all 0.3s ease-in-out;
+    }
+    .active{
+        left: -100%;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    .header-right img{
+        width: 460px;
+    }
+    .left1 img {
+        height: 400px;
+    }
+    .right1{
+        width: 400px;
+
+    }
+    .big-feature1{
+        justify-content: center;
+        gap: 35px;
+    }
+    .right-image img {
+        height: 400px;
+    }
+    .left-text, .right-txt{
+        width: 400px;
+    }
+    .left-img img {
+        height: 400px;
+    }
+    .companylogo img {
+        width: 130px;
+    }
+    .example-area{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .example-card{
+        width: calc(50% - 20px);
+        height: 180px;
+    }
+    .example-card h3{
+            top: 48%;
+    left: 7%;
+    }
+    .cta-section{
+        padding: 54px;
+    }
+}
+    @media only screen and (max-width: 819px){
+        .header-section{
+            flex-direction: column-reverse;
+            margin-block: 50px;
+            gap: 10px;
+        }
+        .header-right img{
+            width: 610px;
+        }
+        .header-left{
+            max-width: 73vw;
+        }
+        .social-logo{
+            margin: 10px;
+        }
+            .left1 img {
+        height: 300px;
+    }
+    .right-image img{
+        height: 300px;
+    }
+        .left-img img{
+        height: 300px;
+    }
+    .big-features-section{
+        margin-bottom: 20px;
+    }
+    .features-card img{
+        width: 70px;
+    }
+        .features-card p{
+            margin-top: 0px;
+        }
+    
+    }
+    @media only screen and (max-width: 706px){
+        .header-right img {
+            width: 459px;
+        }
+        .social-logo img{
+            height: 40px;
+        }
+        .features-card{
+            max-width: 70%;
+        }
+        .small-bold-text{
+            margin-inline: 84px;
+        }
+        .big-feature1{
+            flex-direction: column;
+        }
+        .big-feature2{
+            flex-direction: column-reverse;
+            
+        }
+        .big-features-section{
+            margin-bottom: 30px;
+        }
+        .right1{
+            text-align: center;
+        }
+        .left-text{
+            text-align: center;
+        }
+        .right-txt{
+            text-align: center;
+        }
+        .right1 h4{
+            margin-left: -13px;
+        }
+        .big-feature1{
+            margin-bottom: 50px;
+        }
+        .example-card {
+            width: calc(100% - 20px);
+            height: 180px;
+        }
+        .example-card h3 {
+            top: 56%;
+            left: 5%;
+            width: 60%;
+        }
+        .footer-column{
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        .link-column{
+            text-align: center;
+            align-items: center;
+        }
+        footer{
+            padding-block: 60px;
+        }
+    }
+    @media only screen and (max-width: 496px){
+        .example-card h3{
+            font-size: 20px;
+        }
+        .features-card img {
+            width: 60px;
+        }
+        .header-right img {
+            width: 70vw;
+        }
+        h1{
+            font-size: 2.5rem
+        }
+        h2{
+            font-size: 1.7rem;
+        }
+        h3{
+            font-size: 1.3rem;
+        }
+        p{
+            font-family: 'roboto', sans-serif;
+            font-size: 1rem;
+        }
+        .left-text p, .right1 p, .right-txt p{
+            margin-inline: 30px;
+        }
+    }
+    @media only screen and (max-width: 390px){
+        h1{
+            font-size: 2.5rem
+        }
+        h2{
+            font-size: 1.7rem;
+        }
+        h3{
+            font-size: 1.3rem;
+        }
+        p{
+            font-family: 'roboto', sans-serif;
+            font-size: 1rem;
+        }
+        .left-text p, .right1 p, .right-txt p{
+            margin-inline: 30px;
+        }
+        .header-right img {
+            width: 70vw;
+        }
+    }

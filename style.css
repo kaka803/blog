@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color: #183b56;
+    --secendary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 3rem
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.25rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500px;
+}
+
+/* utility class */
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url(assets/asset\ 28.png);
+    background-size: 300px;
+    background-position: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+hover-links{
+    text-: none;
+}
+ul{
+    list-style: none;
+}
+.logo img{
+    width: 200px;
+}
+.main-nav{
+    position: relative;
+    overflow: initial;
+}
+nav .container{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-links .flex{
+    justify-content: end;
+    gap: 30px;
+}
+.links{
+    color: var(--primary-text-color);
+}
+.links:hover{
+    color: var(--accent-color);
+}
+.primary{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 25px;
+    box-shadow: 0 0 2px var(--secendary-text-color);
+}
+.primary:hover{
+    background-color: var(--accent-color-dark);
+    transition: 0.2s ease-out;
+}
+.secendory{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-weight: 700;
+    color: black ;
+    padding: 12px 25px;
+    box-shadow: 0 0 2px var(--secendary-text-color);
+}
+.secendory:hover{
+    color: var(--accent-color);
+    transition: 0.2s ease-out;
+}
+.nav-toggle{
+    display: none;
+}
+/* header-section */
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+.header-right img{
+    width: 610px;
+}
+.header-left{
+    max-width: 40vw;
+    text-align: left;
+}
+.header-left h1, p{
+    margin-top: 20px;
+}
+.get-started-button{
+    margin-top: 20px;
+}
+/* companies-section */
+
+.small-bold-text{
+    text-align: center;
+    margin-block: 25px;
+}
+.social-logo{
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.social-logo .logo{
+    height: 50px;
+    margin-block: 5px;
+}
+
+/* features section */
+.big-feature1{
+    gap: 10px;
+}
+.features-section{
+    padding: 80px var(--padding-inline-section);
+}
+.features-header{
+    text-align: center;
+}
+.features-header h2{
+    margin-bottom: 20px;
+}
+.features-area{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 55px;
+    margin-top: 50px;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+}
+.left1 img{
+    height: 500px;
+}
+.right1{
+    text-align: left;
+}
+.right-image img{
+    height: 500px;
+}
+.left-text{
+    text-align: left;
+}
+.left-img img{
+    height: 500px;
+}
+.right-txt{
+    text-align: left;
+}
+/* example section */
+.example-header{
+    flex-direction: column;
+    gap: 20px;
+}
+.example-card{
+    width: 23%;
+    position: relative;
+    height: 300px;
+    background : linear-gradient(rgba(0 0 0 / 0%), #000000), url(assets/toronto-ontario-canada-lead-TORONTOTG0721-bfa723dac6c741d0bd549c90c2660968.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.card-text{
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    right: 20%;
+    color: white;
+    text-align: left;
+}
+.example-card2{
+    background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(assets/books-521812297.jpg);
+
+}
+.example-card3{
+    background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(assets/pexels-rovenimagescom-949587.jpg);
+}
+.example-card4{
+        background : linear-gradient(rgba(0, 0, 0, 0.568), #000000), url(assets/books.jpg);
+}
+.example-area{
+    gap: 30px;
+    margin-block: 30px;
+}
+.cta-section-container{
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.cta-section{
+    background-color: #183b56;
+    padding: 90px var(--padding-inline-section);
+}
+.cta-section-container h2{
+    margin-top: 20px;
+}
+/* footer-section */
+.companylogo img{
+    width: 200px;
+}
+.link-column{
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.footer-column{
+    justify-content: space-between;
+    /* margin-block: 90px; */
+    align-items: flex-start;
+}
+footer{
+    background-color: #ebf2fa;
+    padding-block: 90px;
+}
+.subfooter-container{
+    justify-content: center;
+    gap: 20px;
+}
+.subfooter{
+    padding: var(--padding-inline-section);
+    background-color: #b9cde4;
+}
+.links{
+    transition: 0.3s ease-in-out;
+}
+.subfooter-container a{
+    color: var(--primary-text-color);
+}
+
+
+
+
+/* bttn clases */
+/* From Uiverse.io by Madflows */ 
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  
